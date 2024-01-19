@@ -68,3 +68,192 @@
     color: red;
     margin-left: 80px;
 }
+
+/*PRACTICA 5*/
+
+.practica-5 {
+    margin-bottom: 100px;
+}
+
+.practica-5 .titulo{
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+
+.practica-5 #azul{
+    color: blue;
+    text-align: left;
+}
+
+.practica-5 #rojo{
+    color: red;
+    text-align: right;
+}
+
+/*PRACTICA 6*/
+
+.practica-6{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.practica-6-span{
+    margin-bottom: 20px;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+
+tbody td{
+    text-align: left;
+    width: 200px;
+    border: 2px solid black;
+}
+
+/*PRACTICA 7*/
+
+.practica-7{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.practica-7-span{
+    margin-bottom: 20px;
+}
+
+.practica-7 thead{
+    background-color: black;
+    color: white;
+}
+
+/*PRACTICA 8*/
+
+.practica-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-bottom: 100px;
+    
+}
+
+.practica-8-card {
+    width: 300px;
+    box-shadow: 0 0 8px 4px rgba(177, 176, 176, 0.5);
+    padding: 0px; 
+    text-align: center;
+}
+
+
+
+.practica-8-card h1{
+    background-color: gray;
+    color: white;
+    padding: 8px;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.practica-8-card p{
+    text-align: left;
+    padding: 8px;
+}
+
+.practica-8-card #email{
+    background-color: rgba(177, 176, 176);
+    padding: 8px;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+/*PRACTICA 9*/
+
+.practica-9-span{
+    margin-bottom: 500px;
+}
+
+.practica-9-comun{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+#item-rojo{
+    background-color: red;
+    left: 100px;
+    top: 2100px; 
+    /* top+2000px porque el ejercicio esta pensado para una sola pagina y yo estoy poniendo todo em la misma */
+}
+
+#item-azul{
+    background-color: blue;
+    left: 150px;
+    top: 2150px;
+    /* top+2000px porque el ejercicio esta pensado para una sola pagina y yo estoy poniendo todo em la misma */
+}
+
+#item-verde {
+    background-color: green;
+    left: 200px;
+    top: 2200px;
+    /* top+2000px porque el ejercicio esta pensado para una sola pagina y yo estoy poniendo todo em la misma */
+}
+
+/*PRACTICA 10*/
+.practica-10{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.practica-10-tabla{
+    box-shadow: 0 0 8px 4px rgba(177, 176, 176, 0.5);
+}
+
+.practica-10 table {
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+
+.practica-10 tbody td{
+    text-align: left;
+    width: 170px;
+    border: 2px solid black;
+    background-color: white;
+    font-family: Arial;
+    color: blue;
+    padding: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.practica-10 tbody td#destacar{
+    text-align: left;
+    width: 170px;
+    border: 2px solid black;
+    background-color: red;
+    font-family: Arial;
+    color: white;
+    padding: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.practica-10 tfoot td{
+    width: 200px;
+    border: 2px solid black;
+    color: blue;
+    font-size: 12px;
+}
+
